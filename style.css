@@ -2,6 +2,7 @@
   /*Primary*/
 --Pale-blue: hsl(225, 100%, 94%);
 --Bright-blue: hsl(245, 75%, 52%);
+--Bright-blue-opacity: hsl(245, 86%, 67%);
 
  /*Neutral*/
 --Very-pale-blue: hsl(225, 100%, 98%);
@@ -60,7 +61,7 @@ h4 {
 .main-text-content {
   width: 100%;
   text-align: center;
-  padding: 5rem 5rem;
+  padding: 4rem 5rem 2.5rem;
 }
 
 .main-text-content h1 {
@@ -79,7 +80,7 @@ h4 {
   justify-content: space-between;
   width: 80%;
   height: 8rem;
-  border-radius: 4%;
+  border-radius: 10px;
   padding: 0 2rem;
 }
 
@@ -92,9 +93,54 @@ h4 {
   line-height: 1.5;
 }
 
-.button-change {
-  text-decoration: underline ;
+.main-price p {
+  color: var(--Desaturated-blue);
+}
+
+.main-price h4 {
+  font-weight: 900;
+}
+
+.button {
   border: none;
-  font-weight: bold;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.button-change {
+  text-decoration: underline;
   color: var(--Bright-blue);
 }
+
+.button-change:hover {
+  color: var(--Bright-blue-opacity);
+  cursor: pointer;
+}
+
+.button-proceed {
+  margin-top: 2rem ;
+  width: 80%;
+  background-color: var(--Bright-blue);
+  color: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+
+.button-proceed:hover {
+  background-color: var(--Bright-blue-opacity);
+  cursor: pointer;
+}
+
+.button-cancel {
+  margin-top: 2rem ;
+  background-color: white;
+  color: var(--Desaturated-blue);
+  border-radius: 10px;
+  margin-bottom: 3rem;
+}
+
+.button-cancel:hover {
+  color: black;
+  cursor: pointer
+}
+
