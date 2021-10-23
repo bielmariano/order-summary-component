@@ -115,6 +115,7 @@ h4 {
 .button-change {
   text-decoration: underline;
   color: var(--Bright-blue);
+  background: none;
 }
 
 .button-change:hover {
